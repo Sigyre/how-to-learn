@@ -22,9 +22,12 @@
   display: flex;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   height: 32px;
-  width: 183px;
   top: 30px;
   left: 64px;
   position: absolute;
@@ -65,6 +68,7 @@
   right: 0;
   bottom: 0;
   z-index: 2;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -98,6 +102,7 @@
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
+  font-weight: normal;
 }
 
 .two_columns__main-text {
@@ -176,9 +181,10 @@
 
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
-  z-index: -2;
+  display: flex;
+  flex-direction: column;
 }
 
 .feynman__illustration {
@@ -187,7 +193,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .feynman__title {
@@ -198,6 +204,7 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  z-index: 3;
 }
 
 .feynman__subtitle {
@@ -205,6 +212,7 @@
   font-size: 36px;
   margin: 70px auto 0 auto;
   text-align: center;
+  z-index: 3;
 }
 
 .feynman__link {
@@ -213,6 +221,8 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /*Основной контент, блок Кауфман*/
@@ -221,7 +231,6 @@
   background-color: #1f1f1f;
   padding: 90px 0;
   position: relative;
-  z-index: -2;
   overflow: hidden;
 }
 
@@ -230,6 +239,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
 }
 
 .section-title_theme_dark {
@@ -245,7 +255,7 @@
   width: 877px;
   height: 877px;
   background-image: url("../images/kaufman-triangle.svg");
-  z-index: -1;
+  z-index: 1;
   background-size: contain;
   top: 0;
   right: -290px;
@@ -270,36 +280,28 @@
   width: 90%;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
 
-.logo__footer {
+.logo_place_footer {
   height: 35px;
-  width: 183px;
 }
 
 .footer__autor {
   line-height: 25px;
   font-size: 18px;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
+  margin: 18px 0;
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
-  margin-top: 20px;
+  margin: 20px 0 16px;
   list-style: none;
   padding: 0;
 }
