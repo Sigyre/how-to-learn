@@ -1,17 +1,17 @@
-/*Начало body*/
-
+Начало body
+/*
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
+   мы ещё не умеем делать мобильную версию сайта,
+  поэтому выше установлена минимальная ширина страницы
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
+   выше установили ограничение по максимальной ширине
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+   выше для экранов больше 1600px отцентрировали весь контент
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/*Шапка*/
+Шапка
 
 .header {
   height: 100vh;
@@ -62,7 +62,7 @@
   transition: 2s ease;
 }
 
-.header__link:hover{
+.header__link:hover {
   opacity: 0.5;
 }
 
@@ -92,11 +92,11 @@
   from {
     transform: rotate(0deg);
   }
-  to{
+  to {
     transform: rotate(360deg);
   }
 }
-/*Основной контент, блок description*/
+Основной контент, блок description
 
 .description {
   display: flex;
@@ -140,7 +140,7 @@
   font-weight: bold;
 }
 
-/*Основной контент, блок techniques*/
+Основной контент, блок techniques
 
 .techiques {
   margin: 100px auto 100px auto;
@@ -155,21 +155,19 @@
   list-style: none;
   margin: 0 auto;
   padding: 0;
-
 }
 
 .cards__item {
   width: 240px;
   text-align: center;
   margin-top: 60px;
-  }
+}
 
 .cards__image {
   border-radius: 50%;
   width: 160px;
   height: 160px;
   margin: 0 40px 43px;
-
 }
 
 .cards__title {
@@ -183,24 +181,26 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-  margin:0;
+  margin: 0;
 }
 
-/*Основной контент, блок video*/
+Основной контент, блок video
 .video__iframes {
   text-align: center;
   margin: 50px auto -60px;
 }
 
 .video__iframe {
-margin-right: 20px;
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
 }
 
 .video__iframe:last-of-type {
-margin: 0;
+  margin: 0;
 }
 
-/*Основной контент, блок Оакли*/
+Основной контент, блок Оакли
 
 .oakley {
   display: flex;
@@ -209,45 +209,44 @@ margin: 0;
   padding: 60px 0 0 0;
 }
 
-/*Основной контент, блок Кхан*/
+Основной контент, блок Кхан
 .khan {
   background-color: #f2f2f2;
-
 }
 
 .khan__container {
-width: 80%;
-padding-top: 105px;
-margin: 0 auto;
+  width: 80%;
+  padding-top: 105px;
+  margin: 0 auto;
 }
 
 .khan__author {
-line-height: 42px;
-font-size: 30px;
-font-weight: normal;
-margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
 }
 
 .khan__title {
-line-height: 1.15;
-font-size: 60px;
-font-weight: bold;
-margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .khan__quote {
-width: 790px;
-line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-margin: 50px 0 36px;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 50px 0 36px;
 }
 
 .khan__quote-author {
- line-height: 1.15;
- font-size: 24px;
- font-weight: bold;
- margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .khan__quote-author-subline {
@@ -255,25 +254,22 @@ margin: 50px 0 36px;
   font-size: 24px;
   font-weight: normal;
   margin: 10px 0 0;
-
-
 }
 
 .khan__book-container {
-display: flex;
-margin: 68px 0 0;
+  display: flex;
+  margin: 68px 0 0;
 }
 
 .khan__book-pic {
   width: 620px;
   height: 608px;
   margin: 0 48px 0 0;
-
 }
 
 .khan__buy-link {
   text-decoration: none;
-  color:  #2f80ed;
+  color: #2f80ed;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
@@ -284,11 +280,12 @@ margin: 68px 0 0;
   opacity: 0.5;
 }
 
-/*Основной контент, блок digits*/
+Основной контент, блок digits
 
 .digits {
   margin: 100px auto 100px auto;
 }
+================
 
 .section-title {
   width: 60%;
@@ -336,7 +333,7 @@ margin: 68px 0 0;
   font-size: 18px;
 }
 
-/*Основной контент, блок Феймана*/
+Основной контент, блок Феймана
 
 .feynman {
   position: relative;
@@ -385,11 +382,11 @@ margin: 68px 0 0;
   transition: 2s linear;
 }
 
-.feynman__link:hover{
+.feynman__link:hover {
   opacity: 0.5;
 }
 
-/*Основной контент, блок Кауфман*/
+Основной контент, блок Кауфман
 
 .kaufman {
   background-color: #1f1f1f;
@@ -426,13 +423,13 @@ margin: 68px 0 0;
   animation: rotation linear 20s infinite;
   overflow: hidden;
 }
-/* Основной блок, блок ресурсы*/
+Основной блок, блок ресурсы
 .resources {
   padding: 100px;
 }
 
 .resources_logo-zone {
-  display:flex;
+  display: flex;
   margin: 80px auto 217px;
   width: 1100px;
   list-style: none;
@@ -443,12 +440,9 @@ margin: 68px 0 0;
 .resources_logo {
   width: 270px;
   height: 38px;
-
 }
 
-
-
-/* Конец основного контента, подвал */
+Конец основного контента, подвал
 
 .footer {
   display: flex;
@@ -512,4 +506,4 @@ margin: 68px 0 0;
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
+} */
